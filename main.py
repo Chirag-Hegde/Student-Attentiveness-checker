@@ -15,7 +15,7 @@ from flask_pymongo import PyMongo
 
 app = Flask("Attentive")
 app.config["MONGO_URI"] = "mongodb://127.0.0.1:27017/attentive-db"
-app.config['SECRET_KEY'] = 'lookataryanman'
+app.config['SECRET_KEY'] = 'lookatchi'
 moment = Moment(app)
 
 mongo = PyMongo(app)
